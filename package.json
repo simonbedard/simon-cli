@@ -1,0 +1,21 @@
+{
+  "name": "simon-cli",
+  "version": "1.0.0",
+  "description": "My own day to day cli, for fun only",
+  "bin": {
+    "simon": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Bédard",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.11.1",
+    "cli-spinners": "^2.6.1",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1",
+    "yargs": "^17.5.1"
+  }
+}
